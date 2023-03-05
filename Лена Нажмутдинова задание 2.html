@@ -1,0 +1,321 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Нажмутдинова Елена</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
+  <link rel='stylesheet' href='https://raw.githack.com/okumurrrra/study/main/normalize.css'>
+  <style>
+  * {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+  background: url("https://sun9-79.userapi.com/impg/Pn1h6I-60Uda9zpGPTs939YRUjgGjwGYbIEKAg/myK54DxnpEg.jpg?size=1280x720&quality=95&sign=b1d28cc30e4f1efd20634312505f6116&type=album");
+  background-size: cover;
+}
+
+.box {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.landing {
+    position: relative;
+    background-color: transparent;
+}
+
+.landing .header {
+    display: inline;
+    padding: 10px 0 0;
+    position: relative;
+}
+
+
+.landing .header .links {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing .header .links li {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.landing .header .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: #6c63ff;
+    font-size: 18px;
+}
+
+.landing .info {
+    width: 100%;
+    float: left;
+    margin-top: 130px;
+}
+
+.landing .info h1 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: white;
+}
+
+.landing .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: white;
+}
+
+.landing .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #6c63ff;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  display: block;
+  color: transparent;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: lowercase;
+  color: yellow;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: lowercase;
+  color: yellow;
+  font-size: 18px;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+@media all and (max-width: 768px) {
+  h2 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+    
+/* spoiler */
+button:focus {
+  outline: none;
+}
+
+
+#spoiler_button {
+ border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: #6c63ff;
+    font-size: 18px;
+}
+
+#spoiler_button:hover {
+border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: aqua;
+    font-size: 18px;
+}
+
+#spoiler_button:active {
+  border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: aqua;
+    font-size: 18px;
+}
+
+  .fadein, .fadeout {
+  height: 0;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+
+  opacity: 0;  
+}
+
+.fadein {
+  height: 100%;
+  opacity: 1;
+ 
+}
+
+#additional p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: white;
+
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="landing">
+  <div class="box">
+    <div class="header">
+      <ul class="links">
+        <li><a href="#place3" style="color: white">О Нас</a></li>
+        <li><a href="#place4" style="color: white">Акции</a></li>
+        <li><a href="#place5" style="color: white">Мастера</a></li>
+        <li><a href="#place1" style="color: white">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="info">
+      <h1>Салон красоты Venzel</h1>
+      <p>Наша студия предлагает Вам полный перечень услуг по уходу за ногтями, обучение (как профессиональные курсы для начинающих и опытных мастеров, так и "домашний маникюр", для тех, кто хочет научиться самостоятельно ухаживать за ногтями), косметику для ухода за руками и телом.</p>
+      <br>
+      <br>
+      <p id="place1">Мы хотим, чтобы гости возвращались в наши студии и приводили с собой лучших подруг и друзей, коллег, родных и просто знакомых потому что мы делаем свою работу классно и наших мастера достойны рекомендаций наших любимых гостей.</p>
+      <br>
+      <br>
+  
+      <button name="spoiler_button" id="spoiler_button" type="button">Узнать</button>
+
+    <div id="spoiler_text" class="fadeout" >
+      <br>
+      <br>
+ <p>До конца марта действует 25% скидка каждой девушке, на любую услугу салона.
+  Приводи маму/бабушку/подругу и каждая из вас получит 50% скидку на любую услугу.
+  Порадуйте себя и своих самых близких, походом в нашу студию!
+ </p>
+    </div>
+      
+    </div>
+ </div>
+     <div class="clearfix">
+    </div>
+  
+</div>
+  <div class="container" id="place2">
+  <h2 id="headline">До конца акции осталось:</h2>
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>дней</li>
+      <li><span id="hours"></span>часов</li>
+      <li><span id="minutes"></span>минут</li>
+      <li><span id="seconds"></span>секунд</li>
+    </ul>
+  </div>
+</div>
+<div id="additional">
+  <p id="place3">У нас Вы получаете 100% результат, качественный сервис, большие бонусы и подарки! Мастера работают на лучших материалах, следят за качеством своей услуги. Мы хотим, чтобы наши гости были довольны результатом.</p>
+<br>
+<p> Любовь к себе - важная составляющая каждой девушки
+  В предверии 8 марта, наша студия хочет порадовать всех представительниц женского пола. И провести маштабную акцию</p>
+</div>         
+
+
+  <script>
+  (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "05/15/",  //expire countdown
+      date = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > date) {
+    date = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(date).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "Акция!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+
+//spoiler
+    
+    var divToggleVis = document.getElementById('spoiler_text');
+var button = document.getElementById('spoiler_button');
+
+button.onclick = function() {
+    if (divToggleVis.className === 'fadeout') {
+        divToggleVis.className = 'fadein';
+    } else {
+        divToggleVis.className = 'fadeout';
+    }
+
+    if (button.innerHTML === 'Узнать') {
+        button.innerHTML = 'Скрыть';
+    } else {
+        button.innerHTML = 'Узнать';
+    }
+};
+
+  </script>
+
+</body>
+</html>
+
